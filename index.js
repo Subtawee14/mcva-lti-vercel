@@ -23,7 +23,8 @@ app.post('/api/connect', (req, res) => {
     secure: true,
   });
 
-  res.redirect(302, 'http://localhost:3400/');
+  //   res.redirect(302, 'http://localhost:3400/');
+  res.redirect(302, 'https://mcva-lti-web-demo.vercel.app');
 });
 
 app.listen(PORT, () => {
