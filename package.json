@@ -1,0 +1,28 @@
+{
+  "name": "mcva-lti-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Subtawee14/mcva-lti-vercel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Subtawee14/mcva-lti-vercel/issues"
+  },
+  "homepage": "https://github.com/Subtawee14/mcva-lti-vercel#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
