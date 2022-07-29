@@ -21,7 +21,8 @@ app.post('/api/connect', (req, res) => {
     expires: new Date(Date.now() + 3600000),
     sameSite: 'none',
     secure: true,
-    path: 'https://mcva-lti-web-demo.vercel.app',
+    path: 'https://mcva-lti-web-demo.vercel.app/',
+    httpOnly: false,
   });
 
   //   res.redirect(302, 'http://localhost:3400/');
