@@ -19,6 +19,8 @@ app.post('/api/connect', (req, res) => {
 
   res.cookie('Authorization', tokenData.token, {
     expires: new Date(Date.now() + 3600000),
+    sameSite: 'none',
+    secure: true,
   });
 
   res.redirect(302, 'http://localhost:3400/');
